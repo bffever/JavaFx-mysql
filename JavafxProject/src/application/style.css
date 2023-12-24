@@ -1,0 +1,94 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.Login-BorderPane,.Selection-MainPane
+{
+	-fx-background-color:#D0A2F7;
+
+}
+
+.Login-VBox
+{
+	-fx-max-width:300px;
+	-fx-max-height:300px;
+	-fx-background-color:#DCBFFF;
+		
+	-fx-border-width:3;
+	-fx-border-color:#F1EAFF;
+	
+	-fx-border-radius:15 15 15 15;
+	-fx-background-radius:15 15 15 15;
+
+}
+
+.Login-Label
+{
+	-fx-font-size:32;
+	-fx-text-fill:#A2678A;
+}
+
+.Login-PasswordField
+{
+	-fx-max-width:200;
+	
+	
+	-fx-prompt-text-fill:#A2678A;
+	
+	-fx-border-width:3;
+	-fx-border-color:#F1EAFF;
+	
+	-fx-border-radius:15 15 15 15;
+	-fx-background-radius:15 15 15 15;
+	
+	-fx-alignment:center;
+	-fx-background-color:#FFD1E3;
+}
+
+
+.Login-Button
+{
+	-fx-min-width:200;
+	-fx-min-height:30;
+	
+	-fx-border-width:3;
+	-fx-border-color:#F1EAFF;
+	
+	-fx-border-radius:15 15 15 15;
+	-fx-background-radius:15 15 15 15;
+	-fx-text-fill:#A2678A;
+	-fx-background-color:#E5D4FF;
+}
+
+
+.Login-Button:hover,.Selection-Button:hover
+{
+	-fx-background-color:#D0A2F7;
+	-fx-cursor:hand;
+}
+
+.Login-Button:pressed,.Selection-Button:pressed
+{
+	-fx-background-color:#E5D4FF;
+}
+
+.Selection-CenterPane
+{
+	-fx-min-width:400;
+	-fx-max-height:400;
+	-fx-border-color:#F1EAFF;
+	-fx-background-color:#DCBFFF;
+}
+
+.Selection-LeftPane,.Selection-RightPane
+{
+	-fx-min-width:200;
+	-fx-max-height:400;
+	-fx-border-color:white;
+}
+
+.Selection-Button
+{
+	-fx-min-width:200;
+	-fx-min-height:200;
+	-fx-text-fill:#A2678A;
+	-fx-background-color:#E5D4FF;
+	-fx-border-color:#F1EAFF;
+}
